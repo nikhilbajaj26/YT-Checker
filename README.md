@@ -9,8 +9,7 @@ pip install [--upgrade] youtube-dl
 ```
 
 ## Usage
-I made this to check the links in the footnotes of a google doc, but you can start from any document readable by LibreOffice writer with youtube links in the footnotes.
-(0. Export google doc to .odt)
+I made this to check the links in the footnotes of a google doc (export to .odt), but you can start from any document readable by LibreOffice writer with youtube links in the footnotes.
 1. Open document with [LibreOffice Writer](https://www.libreoffice.org/)
 2. File > Send to > Create HTML
 3. Run checker.py in same directory. 
