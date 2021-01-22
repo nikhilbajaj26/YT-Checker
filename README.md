@@ -16,6 +16,6 @@ I made this to check the links in the footnotes of a google doc (export to .odt)
 
 The script writes any bad links to errors.log. After 10 errors, the program will ask for confirmation before continuing (just as a sanity check, since this may indicate youtube-dl is out of date or some other problem unrelated to the links themselves.) Script will attempt all bad links twice, with a pause between attempts, in order to reduce the number of false positives.
 
-~~~
+---
 
-discrep.py checks that the body urls match the footnotes - if not, checks that the same yt videos are linked in the same order across all body links/ all footnote links for each footnote.
+Addendum: discrep.py checks that the body urls match the footnotes - if not, checks that the same yt videos are linked in the same order across all body links/ all footnote links for each footnote.
